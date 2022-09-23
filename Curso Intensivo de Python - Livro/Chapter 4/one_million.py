@@ -1,0 +1,5 @@
+numbers = []
+
+for number in range(1,1000001):
+    numbers.append(number)
+print(min(numbers), max(numbers), sum(numbers))
